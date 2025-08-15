@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarvesh Soumil | Creations</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="nav-left">
+            <a href="#" class="nav-logo nav-link" data-target="home" data-translate-key="nav-logo">Creations</a>
+            <nav class="nav">
+                <a href="#" class="nav-link" data-target="project1" data-translate-key="nav-p1">Responsive Grid</a>
+                <a href="#" class="nav-link" data-target="project2" data-translate-key="nav-p2">Brain Teaser</a>
+                <a href="#" class="nav-link" data-target="project3" data-translate-key="nav-p3">Joke Factory</a>
+            </nav>
+        </div>
+        <div class="controls-container">
+            <div class="language-switch-wrapper">
+                <span class="lang-text">EN</span>
+                <label class="language-switch">
+                    <input type="checkbox" id="language-toggle">
+                    <span class="lang-slider"></span>
+                </label>
+                <span class="lang-text">HI</span>
+            </div>
+            <div class="theme-toggle" id="theme-toggle">
+                <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.106a.75.75 0 010 1.06l-1.591 1.59a.75.75 0 11-1.06-1.06l1.59-1.59a.75.75 0 011.06 0zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.894 17.894a.75.75 0 01-1.06 0l-1.59-1.591a.75.75 0 111.06-1.06l1.59 1.59a.75.75 0 010 1.061zM12 18.75a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0v-2.25a.75.75 0 01.75-.75zM5.106 17.894a.75.75 0 010-1.06l1.59-1.59a.75.75 0 111.06 1.06l-1.59 1.59a.75.75 0 01-1.06 0zM3 12a.75.75 0 01.75-.75h2.25a.75.75 0 010 1.5H3.75A.75.75 0 013 12zM6.106 6.106a.75.75 0 011.06 0l1.591 1.59a.75.75 0 01-1.06 1.06L6.106 7.167a.75.75 0 010-1.06z"></path></svg>
+                <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M9.528 1.718a.75.75 0 01.162.819A8.97 8.97 0 009 6a9 9 0 009 9 8.97 8.97 0 003.463-.69.75.75 0 01.981.98 10.503 10.503 0 01-9.694 6.46c-5.799 0-10.5-4.701-10.5-10.5 0-3.836 2.04-7.175 5.162-8.942a.75.75 0 01.819.162z" clip-rule="evenodd"></path></svg>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="page-section active">
+            <div class="hero">
+                <h1 data-translate-key="hero-title">Welcome to My Interactive Showcase</h1>
+                <p data-translate-key="hero-subtitle">Explore three unique projects demonstrating modern web development techniques.</p>
+                <div class="project-links">
+                    <div class="project-link-item">
+                        <button class="project-btn nav-link" data-target="project1" data-translate-key="hero-btn1">Responsive Grid</button>
+                        <p class="project-description" data-translate-key="p1-desc">A fluid layout that adapts to any screen size.</p>
+                    </div>
+                    <div class="project-link-item">
+                        <button class="project-btn nav-link" data-target="project2" data-translate-key="hero-btn2">Brain Teaser</button>
+                        <p class="project-description" data-translate-key="p2-desc">Test your knowledge with this fun, interactive quiz.</p>
+                    </div>
+                     <div class="project-link-item">
+                        <button class="project-btn nav-link" data-target="project3" data-translate-key="hero-btn3">Joke Factory</button>
+                        <p class="project-description" data-translate-key="p3-desc">Fetches random jokes from a live API for endless humor.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="project1" class="page-section">
+            <h2 data-translate-key="p1-title">Project 1: Responsive Grid</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="images/mobile.jpg" alt="Mobile View">
+                    <h3 data-translate-key="p1-card1-title">Mobile First</h3>
+                    <p data-translate-key="p1-card1-desc">On small screens, cards stack vertically for easy reading.</p>
+                </div>
+                <div class="card">
+                    <img src="images/tablet.jpg" alt="Tablet View">
+                    <h3 data-translate-key="p1-card2-title">Tablet View</h3>
+                    <p data-translate-key="p1-card2-desc">On medium screens, they arrange into a neat two-column layout.</p>
+                </div>
+                <div class="card">
+                    <img src="images/desktop.jpg" alt="Desktop View">
+                    <h3 data-translate-key="p1-card3-title">Desktop Power</h3>
+                    <p data-translate-key="p1-card3-desc">On large screens, all three cards line up for a full view.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="project2" class="page-section">
+            <h2 data-translate-key="p2-title">Project 2: Brain Teaser 🧠</h2>
+            <div class="quiz-container">
+                <div id="quiz-box">
+                    <h3 id="question" data-translate-key="quiz-question-placeholder">Question text goes here</h3>
+                    <div id="answer-buttons" class="btn-grid"></div>
+                </div>
+                <div id="result-box" class="hidden">
+                    <h3 data-translate-key="quiz-complete">Quiz Complete!</h3>
+                    <p><span data-translate-key="quiz-final-score">Your final score is</span> <span id="score">0</span>.</p>
+                    <button id="restart-btn" class="btn" data-translate-key="quiz-play-again">Play Again</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="project3" class="page-section">
+            <h2 data-translate-key="p3-title">Project 3: Joke Factory 😂</h2>
+            <button id="fetch-btn" class="btn" data-translate-key="p3-fetch-btn">Tell Me a Joke!</button>
+            <div id="joke-container">
+                <p id="joke-setup" data-translate-key="p3-joke-placeholder">Click the button to get a random joke!</p>
+                <p id="joke-punchline"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>
+            <span data-translate-key="footer-copyright">© 2025 Creations. All Rights Reserved.</span> | 
+            <span data-translate-key="footer-designed">Designed with ❤️ by Sarvesh Soumil</span>
+        </p>
+    </footer>
+
+    <div id="congrats-modal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <div class="confetti-animation"></div>
+            <h2 data-translate-key="congrats-title">Congratulations!</h2>
+            <p data-translate-key="congrats-text">You got a perfect score! Well done!</p>
+            <button id="close-modal-btn" class="btn" data-translate-key="congrats-close">Close</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
